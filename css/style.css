@@ -1,0 +1,48 @@
+.p-table{
+    position: absolute;
+    top: 50px;
+    left: 400px;
+}
+
+.table{
+    height: 500px;
+    width: 500px;
+    border: 5px solid #000000;
+}
+
+.c1{
+    background-color: #ffffff;
+
+}
+
+.c2{
+    background-color: #000000;
+   
+}
+
+#cavalo{
+    position: absolute;
+    top: 10px;
+    left: 70px;
+    animation: cavalo 20s infinite;
+}
+
+@keyframes cavalo{
+    0%{top: 10px; left: 75px;}
+    6%{top: 135px; left: 75px;}
+    12%{top: 135px; left: 135px;}
+    18%{top: 260px; left: 135px;}
+    24%{top: 260px; left: 200px;}
+    30%{top: 380px; left: 200px;}
+    36%{top: 380px; left: 255px;}
+    42%{top: 445px; left: 255px;}
+    48%{top: 445px; left: 385px;}
+    54%{top: 445px; left: 255px;}
+    60%{top: 380px; left: 255px;}
+    66%{top: 380px; left: 200px;}
+    72%{top: 260px; left: 200px;}
+    78%{top: 260px; left: 135px;}
+    84%{top: 135px; left: 135px;}
+    90%{top: 135px; left: 75px;}
+    100%{top: 10px; left: 75px;}
+}
